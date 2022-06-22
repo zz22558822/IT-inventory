@@ -151,8 +151,13 @@
       flex-direction: column;
     }
   }
+  @media(max-width: 414px){
+    .content form .user-details{
+        max-height: 400px;
+    }
+  }
   @media(max-width: 376px){
     .content form .user-details{
-        max-height: 300px;
+        max-height: 350px;
     }
   }
